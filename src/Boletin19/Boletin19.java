@@ -5,18 +5,19 @@
  */
 package Boletin19;
 
-import java.util.ArrayList;
+
 
 /**
  *
  * @author David
  */
-public class Boletin19 {
+public class Boletin19 extends Buzon {
 
-   
     public static void main(String[] args) {
-        
-       
+
+        Buzon buzon = new Buzon();
+
+        buzon.menu();
+
     }
-    
 }
